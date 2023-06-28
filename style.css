@@ -1,0 +1,152 @@
+html, body
+{
+    margin: 0;
+    padding:0;
+
+}
+
+body {
+    background: #faf1de;
+    overflow: hidden;
+}
+
+.letter {
+    position: relative;
+    text-align: left;
+}
+
+#letterPaper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: "Bagel Fat One";
+    font-size: 40px;
+    font-style: italic;
+    
+}
+
+p {
+    font-family: "Orbit";
+    font-size: 30px;
+    font-style: normal;
+}
+
+div {
+    font-family: "Dokdo";
+    
+    font-style: italic;
+}
+
+#dearDad {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    padding-left: 75px;
+}
+@media only screen and (max-width: 1200px)  {
+    #dearDad {
+        left:50px;
+    }
+}
+
+.letterContainer {
+    
+    position: absolute;
+    left: 300px;
+    top: 170px;
+    max-width: 800px;
+    min-height: 1000px;
+    /* padding-right: 75px; */
+}
+
+#letterContent {
+    
+    /* left: 200px;
+    top: 175px; */
+  
+}
+
+@media only screen and (max-width: 1200px)  {
+    .letterContainer {
+        left:150px;
+    }
+}
+
+canvas {
+    position: absolute;
+    
+    left:-40px;
+    top: -70px;
+    z-index: 1;
+    background: #F8F1F1; 
+    /* background: red;  */
+    z-index: 2;
+    mix-blend-mode: lighten;
+}
+@media only screen and (max-width: 1070px)  {
+    canvas {
+        left:-100px;
+        top: -70px;
+    }
+}
+
+#flower-decal-header-1 {
+  display: block;
+  margin-left: 400px;
+  margin-right: auto;
+  margin-top: -630px;
+  
+}
+
+#flower-decal-header-2 {
+    display: block;
+    margin-left: 900px;
+    margin-right: auto;
+    margin-top: -50px;
+    
+  }
+
+#flower-decal-border-1 {
+    display: block;
+    margin-left: 75px;
+    margin-right: auto;
+    margin-top: 100px;
+    
+  }
+
+  #flower-decal-border-2 {
+    display: block;
+    margin-left: 80px;
+    margin-right: auto;
+    margin-top: 170px;
+    
+  }
+
+  #flower-decal-border-3 {
+    display: block;
+    margin-left: 1250px;
+    margin-right: auto;
+    margin-top: -400px;
+    
+  }
+  #flower-decal-border-4 {
+    display: block;
+    margin-left: 1250px;
+    margin-right: auto;
+    margin-top: 200px;
+    
+  }
+
+  #flower-decal-border-5 {
+    display: block;
+    margin-left: 650px;
+    margin-right: auto;
+    margin-top: 100px;
+    
+  }
+
+

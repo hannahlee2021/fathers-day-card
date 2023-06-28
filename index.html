@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <link rel="stylesheet" href="https://use.typekit.net/hyw6boo.css">
+
+    <title>letter</title>
+  </head>
+  <body>
+
+   
+
+    <div class="letter">
+
+      <img id="letterPaper"
+      src="letterPaper.png" width="1000px">
+
+      <div id="dearDad">
+        <h1>
+          아빠에게,
+        </h1>
+      </div>
+
+      <div class="letterContainer">
+        <span id="letterContent">
+          <!-- <p>비상계엄이 선포된 때에는 법률이 정하는 바에 의하여 영장제도, 언론·출판·집회·결사의 자유, 정부나 법원의 권한에 관하여 특별한 조치를 할 수 있다.</p>
+          <p>비상계엄이 선포된 때에는 법률이 정하는 바에 의하여 영장제도, 언론·출판·집회·결사의 자유, 정부나 법원의 권한에 관하여 특별한 조치를 할 수 있다.</p>
+          <p>비상계엄이 선포된 때에는 법률이 정하는 바에 의하여 영장제도, 언론·출판·집회·결사의 자유, 정부나 법원의 권한에 관하여 특별한 조치를 할 수 있다.</p>
+          <p>비상계엄이 선포된 때에는 법률이 정하는 바에 의하여 영장제도, 언론·출판·집회·결사의 자유, 정부나 법원의 권한에 관하여 특별한 조치를 할 수 있다.</p>
+          <p>비상계엄이 선포된 때에는 법률이 정하는 바에 의하여 영장제도, 언론·출판·집회·결사의</p> -->
+
+          <p> 
+            해피 아빠 날 (좀 늦었지만 ㅋㅋ)… 나를 늘 응원해주고 도아주셔서 너무 고마워요!! 우리 가족을 부양하기위해 너무 열심히 사는것도 고마워요.  근데 나한테 제일 중요한거는 아빠가 건강하고 행복한거에요. 그래서 너무 열심히 일 하지말고 쉴 시간도 챙겨주세요! 난 평생 아빠 딸이고 아빠 편 입니다. 사랑해 아빠 그리고 AOYS. 
+          </p>
+        </span>
+      </div>
+      
+
+      <img id="flower-decal-header-1"
+      src="flower-decal.png" width="50px">
+
+      <img id="flower-decal-header-2"
+      src="flower-decal.png" width="50px">
+      
+      <img id="flower-decal-border-1"
+      src="flower-decal.png" width="100px"
+      >
+
+      <img id="flower-decal-border-2"
+      src="flower-decal.png" width="100px"
+      >
+
+      <img id="flower-decal-border-3"
+      src="flower-decal.png" width="100px"
+      >
+
+      <img id="flower-decal-border-4"
+      src="flower-decal.png" width="100px"
+      >
+
+
+      <img id="flower-decal-border-5"
+      src="flower-decal.png" width="100px"
+      >
+
+  
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <!-- <script src="sketch.js"></script> -->
+    <script>
+
+
+      function setup() {
+
+    let myCanvas = createCanvas(880, 400);
+    console.log(myCanvas);
+    myCanvas.parent("letterContent");
+    let div = createDiv('마우스로 편지를 색칠해주세요!');
+    
+    div.style('font-size', '40px');
+    div.position(475,50);
+   
+}
+
+function draw() {
+
+  
+
+    strokeWeight(70);
+    if (mouseIsPressed === true) {
+        line(mouseX, mouseY, pmouseX, pmouseY);
+        removeElements();
+    }
+
+
+}
+    </script>
+
+
+  </body>
+</html>
